@@ -84,8 +84,19 @@
               </li> -->
               <li><a class="nav-link" href="#about">About</a></li>
               <!-- <li><a class="nav-link" href="#causes">Causes</a></li> -->
-              <li><a class="nav-link" href="#donate">Testimonials</a></li>
-              <li><a class="nav-link" href="#donate">Donate</a></li>
+              <li>
+                <a class="nav-link custom-dbox-popup" href="#testimonials"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dbox-donation-button nav-link"
+                  href="https://donorbox.org/website-donation-form-78?default_interval=o&amp;amount=100"
+                  >Donate</a
+                >
+              </li>
+
               <li><a class="nav-link" href="#gallery">Gallery</a></li>
               <!-- <li><a class="nav-link" href="#donors">Donors</a></li> -->
               <!-- <li><a class="nav-link" href="#volunteers">Volunteers</a></li> -->
@@ -144,8 +155,11 @@
               <a href="#contact" class="btn btn-default btn-default-outline"
                 >Contact us</a
               >
-              <a class="btn btn-default" href="#give-66020d9cb3be4"
-                >Donate now</a
+              <a
+                class="dbox-donation-button btn btn-default"
+                data-reminder-widget-enabled="true"
+                href="https://donorbox.org/website-donation-form-78?default_interval=o&amp;amount=100"
+                ><span>Donate Now</span></a
               >
             </div>
           </div>
@@ -719,8 +733,11 @@
                   >Donate now</a
                 >
               </form> -->
-              <a class="btn btn-default" href="#give-66020d9cb3be4"
-                >Donate now</a
+              <a
+                class="dbox-donation-button btn btn-default"
+                data-reminder-widget-enabled="true"
+                href="https://donorbox.org/website-donation-form-78?default_interval=o&amp;amount=100"
+                ><span>Donate Now</span></a
               >
             </div>
           </div>
@@ -1842,5 +1859,22 @@
     <script src="js/swiper.min.js"></script>
     <!-- Custom -->
     <script src="js/custom.js"></script>
+    <!-- Sticky DonorBox side Donate button -->
+    <script
+      type="text/javascript"
+      defer=""
+      src="https://donorbox.org/install-popup-button.js"
+      id="donorbox-popup-button-installer"
+      data-href="https://donorbox.org/website-donation-form-78?default_interval=o&amp;amount=100"
+      data-style="background: rgb(56, 198, 149); color: rgb(255, 255, 255); text-decoration: none; font-family: Verdana, sans-serif; display: flex; font-size: 16px; padding: 8px 24px; border-radius: 5px 5px 0px 0px; gap: 8px; width: fit-content; line-height: 24px; position: fixed; top: 50%; transform-origin: center center; z-index: 9999; overflow: hidden; right: 20px; transform: translate(50%, -50%) rotate(-90deg);"
+      data-img-src="https://donorbox.org/images/white_logo.svg"
+    ></script>
+    <!-- Main Donorbox Donate button -->
+    <script
+      type="text/javascript"
+      defer
+      src="https://donorbox.org/install-popup-button.js"
+      id="donorbox-popup-button-installer"
+    ></script>
   </body>
 </html>
