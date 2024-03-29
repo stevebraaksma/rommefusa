@@ -1815,3 +1815,6 @@ a.btn.btn-readmore:hover {
 .donate-img img {
   width: 100%;
 }
+h2.donor-campaign-name {
+  display: none;
+}
