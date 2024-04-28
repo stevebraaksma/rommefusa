@@ -1818,3 +1818,53 @@ a.btn.btn-readmore:hover {
 h2.donor-campaign-name {
   display: none;
 }
+input#mc-embedded-subscribe {
+  width: inherit;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-bottom: 2px solid transparent;
+  border-color: #38c695;
+  background-color: #38c695;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #38c695;
+  border-width: 1px;
+  margin: 0px;
+  position: relative;
+  padding: 15px 35px;
+  border-radius: 3px;
+  line-height: 24px;
+  -webkit-transition: color 0.3s, border-color 0.3s,
+    background-color 0.3s ease-in-out;
+  transition: color 0.3s, border-color 0.3s, background-color 0.3s ease-in-out;
+  z-index: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-color: #38c695;
+  background-color: #38c695;
+}
+.address-wrap .contact-form-box {
+  padding: 0;
+  padding-top: 30px;
+}
+
+#home {
+  background-image: url(../img/hero/rommef-hero.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0, 0, 0, 0) 40%
+      ),
+      url(../img/hero/hero-mobile.jpeg);
+  }
+}
